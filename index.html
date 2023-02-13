@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <div class="row">
+          <div class="col-6">
+            <input
+              type="text"
+              placeholder="  Enter a city.."
+              class="city shadow-sm"
+              id="city-input"
+            />
+          </div>
+          <div class="col-3">
+            <input type="submit" value="Search" class="search shadow-sm" />
+          </div>
+          <div class="col-3">
+            <button class="btn" id="current-location-button">Current</button>
+          </div>
+        </div>
+      </form>
+      <span class="citty" id="city"></span>
+      <span class="weather" id="temperature"> </span
+      ><span class="celsius">°C</span>
+      <h2 id="description"></h2>
+      <h1>&nbsp;&nbsp;sat, January19 7:14pm</h1>
+
+      <ul>
+        <li class="hum">Humidity: <span class="hm" id="humidity"></span>%</li>
+        <li class="wdd">Wind: <span class="wd" id="wind"></span> km/h</li>
+      </ul>
+
+      <div class="forcast">
+        <div class="row">
+          <div class="col">
+            <div class="weeks">Sun</div>
+            <div class="emojies">⛅</div>
+            <div class="degrees"><strong>18°&nbsp;</strong>15°</div>
+          </div>
+          <div class="col">
+            <div class="weeks">Mon</div>
+            <div class="emojies">☀️</div>
+            <div class="degrees"><strong>22°&nbsp;</strong>19°</div>
+          </div>
+          <div class="col">
+            <div class="weeks">Tue</div>
+            <div class="emojies">🌥️</div>
+            <div class="degrees"><strong>15°&nbsp;</strong>10°</div>
+          </div>
+          <div class="col">
+            <div class="weeks">Wed</div>
+            <div class="emojies">☁️</div>
+            <div class="degrees"><strong>9°&nbsp;</strong>5°</div>
+          </div>
+          <div class="col">
+            <div class="weeks">Tue</div>
+            <div class="emojies">🌦️</div>
+            <div class="degrees"><strong>5°&nbsp;</strong>2°</div>
+          </div>
+        </div>
+      </div>
+      <p>
+        This page was coded by
+        <span class="coder"
+          ><strong>Samira Seyfi</strong> and is
+          <a href="" class="git">open-sourced on GitHub</a> and
+          <a href="" class="netlify"> hosted on Netlify</a></span
+        >
+      </p>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
