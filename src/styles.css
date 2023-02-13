@@ -1,0 +1,123 @@
+input {
+  border: 1px solid #e1b4eb;
+  border-radius: 2em 2em;
+  padding: 10px 12px;
+  width: 101%;
+  line-height: 2em;
+  margin: 15px auto;
+  background: white;
+}
+h1 {
+  font-size: 15px;
+  opacity: 0.9;
+  position: relative;
+  top: -25px;
+}
+h2 {
+  font-size: 20px;
+  opacity: 0.9;
+  position: relative;
+  top: -1px;
+  left: 525px;
+}
+p {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.8;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 500px;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+button:hover {
+  background: #fff;
+  cursor: pointer;
+}
+.container {
+  border: 2px solid #a42db9;
+  border-radius: 25px;
+  width: 650px;
+  padding: 15px;
+  margin: 100px 400px;
+}
+
+.weather,
+.celsius {
+  font-size: 36px;
+  margin-top: 20px;
+  position: relative;
+  left: 370px;
+}
+.weather {
+  font-weight: bold;
+}
+.citty {
+  font-size: 33px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.word {
+  font-size: 16px;
+  opacity: 0.8;
+}
+.number {
+  font-size: 16px;
+  color: #596aca;
+}
+.forcast {
+  border: 1px solid #e1b4eb;
+  border-radius: 200px;
+  width: 600px;
+  padding: 40px;
+  padding-right: 5px;
+  margin-top: 25px;
+}
+.weeks {
+  font-size: 18px;
+  opacity: 0.8;
+}
+.degrees {
+  color: #e30909;
+  font-size: 16px;
+}
+.emojies {
+  font-size: 22px;
+}
+.hm,
+.wd {
+  color: #1331da;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn {
+  border: 1px solid #af4bc5;
+  background: #b60bdc;
+  color: #fff;
+  border-radius: 2em 2em;
+  padding: 10px 12px;
+  width: 101%;
+  line-height: 2em;
+  margin: 15px auto;
+  transition: all 200ms ease;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+}
+.hum,
+.wdd {
+  position: relative;
+  top: -18px;
+}
+.git,
+.netlify {
+  text-decoration: none;
+}
